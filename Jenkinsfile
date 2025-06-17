@@ -1,5 +1,5 @@
 node{
-   stage('SCM Checkout'){
+   stage('SCM Checkout -multistage'){
      git 'https://github.com/vedantek/java-maven-war'
    }
    stage('Compile-Package'){
